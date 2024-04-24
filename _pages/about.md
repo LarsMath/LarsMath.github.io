@@ -6,7 +6,7 @@ subtitle: Puzzled
 
 profile:
   align: right
-  image: 
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Radboud University</p>
