@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://LarsMath.github.io/sitemap.xml
