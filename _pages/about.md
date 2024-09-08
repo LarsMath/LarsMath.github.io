@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: Puzzled
+subtitle: About me
 
 profile:
   align: right
   image: prof_pic.jpeg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Radboud University</p>
     <p>Nijmegen</p>
@@ -17,4 +17,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Work in progress! But where is everything?
+I am a PhD student in Post-Quantum cryptography at the Radboud Universiteit Nijmegen under supervision of Simona Samardjiska. I am focussing on using algebraic techniques for cryptanalysis of different hardness assumptions mostly related to multivariate and code-based cryptography.
