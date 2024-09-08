@@ -9,19 +9,37 @@
   url = {https://www.meds-pqc.org/}
 }
 
-@misc{cryptoeprint:2024/495,
-      author = {Tung Chou and Ruben Niederhagen and Lars Ran and Simona Samardjiska},
-      title = {Reducing Signature Size of Matrix-code-based Signature Schemes},
-      howpublished = {Cryptology ePrint Archive, Paper 2024/495},
-      year = {2024},
-      url = {https://eprint.iacr.org/2024/495}
+@InProceedings{10.1007/978-3-031-62743-9_4,
+      author="Chou, Tung
+      and Niederhagen, Ruben
+      and Ran, Lars
+      and Samardjiska, Simona",
+      editor="Saarinen, Markku-Juhani
+      and Smith-Tone, Daniel",
+      title="Reducing Signature Size of Matrix-Code-Based Signature Schemes",
+      booktitle="Post-Quantum Cryptography",
+      year="2024",
+      publisher="Springer Nature Switzerland",
+      address="Cham",
+      pages="107--134",
+      abstract="This paper shows novel techniques to reduce the signature size of the code-based signature schemes MEDS and ALTEQ, by a large factor. For both schemes, the signature size is dominated by the responses for rounds with nonzero challenges, and we reduce the signature size by reducing the size of these responses. For MEDS, each of the responses consists of {\$}{\$}m^2 + n^2{\$}{\$}field elements, while in our new protocol each response consists of only 2k (k is usually chosen to be close to m and n) field elements. For ALTEQ, each of the responses consists of {\$}{\$}n^2{\$}{\$}field elements, while in our new protocol each response consists of about {\$}{\$}{\backslash}sqrt{\{}2{\}} n^{\{}3/2{\}}{\$}{\$}field elements. In both underlying {\$}{\$}{\backslash}varSigma {\$}{\$}-protocols of the schemes, the prover generates a random isometry and sends the corresponding isometry to the verifier as the response. Instead of doing this, in our new protocols, the prover derives an isometry from some random code words and their presumed (full or partial) images. The prover sends the corresponding code words and images to the verifier as the response, so that the verifier can derive an isometry in the same way. Interestingly, it turns out that each response takes much fewer field elements to represent in this way.",
+      isbn="978-3-031-62743-9",
+      url="https://eprint.iacr.org/2024/495"
 }
 
-@misc{cryptoeprint:2024/364,
-      author = {Lars Ran and Simona Samardjiska and Monika Trimoska},
-      title = {Algebraic Algorithm for the Alternating Trilinear Form Equivalence Problem},
-      booktitle= {Code-Based Cryptography},
-      year= {2023},
-      doi = {10.1007/978-3-031-46495-9_5},
-      url = {https://eprint.iacr.org/2024/364}
+@InProceedings{10.1007/978-3-031-46495-9_5,
+      author="Ran, Lars
+      and Samardjiska, Simona
+      and Trimoska, Monika",
+      editor="Esser, Andre
+      and Santini, Paolo",
+      title="Algebraic Algorithm for the Alternating Trilinear Form Equivalence Problem",
+      booktitle="Code-Based Cryptography",
+      year="2023",
+      publisher="Springer Nature Switzerland",
+      address="Cham",
+      pages="84--103",
+      abstract="The Alternating Trilinear Form Equivalence ({\$}{\$}{\backslash}textsf{\{}ATFE{\}}{\$}{\$}ATFE) problem was recently used as a hardness assumption in the design of a digital signature scheme by Tang et al. using the Fiat-Shamir paradigm. It is a hard equivalence problem known to be in the class of equivalence problems that includes, for instance, the Tensor Isomorphism ({\$}{\$}{\backslash}textsf{\{}TI{\}}{\$}{\$}TI), Quadratic Maps Linear Equivalence ({\$}{\$}{\backslash}textsf{\{}QMLE{\}}{\$}{\$}QMLE) and the Matrix Code Equivalence ({\$}{\$}{\backslash}textsf{\{}MCE{\}}{\$}{\$}MCE) problems. Due to the increased cryptographic interest, the understanding of its practical hardness has also increased in the last couple of years. Currently, there are several combinatorial and algebraic algorithms for solving it, the best of which is a graph-theoretic algorithm that also includes an algebraic subroutine.",
+      isbn="978-3-031-46495-9",
+      url="https://eprint.iacr.org/2024/364"
 }
