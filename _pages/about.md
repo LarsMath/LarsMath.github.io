@@ -9,10 +9,8 @@ profile:
   image: prof_pic.jpeg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Radboud University</p>
-    <p>Nijmegen</p>
-    <p>lars (dot) ran</p>
-    <p>(at) ru (dot) nl</p>
+    <p>Radboud University Nijmegen</p>
+    <p>lars (dot) ran (at) ru (dot) nl</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
