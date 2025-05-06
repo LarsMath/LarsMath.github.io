@@ -8,4 +8,4 @@ nav_order: 6
 ---
 
 <p>Rump Session Eurocrypt 2025: Wedges, Oil, and Vinegar</p>
-<a href="assets/pdf/rumpsessioneurocrypt25.pdf">slides</a>
+<a href="/assets/pdf/rumpsessioneurocrypt25.pdf">slides</a>
